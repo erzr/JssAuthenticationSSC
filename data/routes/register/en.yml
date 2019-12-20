@@ -1,0 +1,5 @@
+fields:
+  pageTitle: Register | Sitecore JSS
+placeholders:
+  jss-main:
+  - componentName: RegisterForm

@@ -1,0 +1,15 @@
+query IntegratedDemoQuery($datasource: String!, $contextItem: String!) {
+  user:whoAmI {
+    isAuthenticated
+    fullName
+  }
+  datasource:item(path:$datasource) {
+    fields {
+      name
+      rendered
+    }
+  }
+  contextItem:item(path:$contextItem) {
+    name
+  }
+}
